@@ -9,7 +9,7 @@ For any questions, problems or feedback please e-mail rea@auckland.ac.nz
 
 We thank the authors for making the source code available.
 
-# References
+## References
 
 - Kim, J. H. K., Corson, P., & Russell, J. C. (2020). Rapid eradication assessment (REA): a tool for
   pest absence confirmation. Wildlife Research, 47(2), 128-136.
