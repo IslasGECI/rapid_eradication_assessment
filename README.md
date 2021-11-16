@@ -1,11 +1,11 @@
 # Rapid Eradication Assessment (REA)
 
-**A tool for pest absence confirmation.**
+> **A tool for pest absence confirmation.**
 
 This repository is a fork of [REA core R script](http://rea.is/) by Dean Anderson (Landcare
 Research), Jimmy Oh (University of Auckland), and Juliana Kim (University of Auckland).
 
-> For any questions, problems or feedback please e-mail rea@auckland.ac.nz
+For any questions, problems or feedback please e-mail rea@auckland.ac.nz
 
 We thank the authors for making the source code available.
 
