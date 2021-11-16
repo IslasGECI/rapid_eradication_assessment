@@ -366,8 +366,7 @@ POFx <- function(alltags, mobiletrack, incursion, tmpshape, shape, g0param, para
   list(posterior, Pi, outPred, xtag, ytag, adultLocDF[,1], adultLocDF[,2])
 }
 
-histAll <- function(posterior,sessiondat,parameters,shape,xtag,ytag,ratx,raty)
-           { 
+histAll <- function(posterior,sessiondat,parameters,shape,xtag,ytag,ratx,raty) { 
              nSession <- dim(sessiondat)[2]-1
              nRats <- sessiondat[3,2]
              ncols = ceiling(sqrt(nSession+1))
@@ -382,4 +381,4 @@ histAll <- function(posterior,sessiondat,parameters,shape,xtag,ytag,ratx,raty)
                  abline(v=quantile(posterior[,i],.025),lwd = 3,col="red")
                  legend(posx,posy,legend=c("Mean","2.5th Quantile"),lwd=c(3,3),col=c("blue","red"))
                }
-           }
+}
