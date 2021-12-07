@@ -1,0 +1,31 @@
+Package: RapidEradicarionAssessment
+Type: Package
+Title: Rapid Eradication Assessment
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Juliana",
+           family = "Kim",
+           role = c("aut", "cre", "cph"),
+           email = "j.russell@auckland.ac.nz"
+           ),
+    person(given = "Ciencia de Datos",
+           family = "GECI",
+           role = "ctb",
+           email = "ciencia.datos@islas.org.mx"
+           ))
+Description: The rapid eradication assessment (REA) model is a powerful simulation framework to determine, given model parameters and a fixed level of monitoring effort, the level of confidence in declaring the success of pest eradication.
+Imports:
+    comprehenr,
+    data.table,
+    MASS,
+    R6,
+    tidyverse
+Suggests:
+    devtools,
+    roxygen2,
+    testthat
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
