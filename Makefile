@@ -1,4 +1,4 @@
-.PHONY: tests
+.PHONY: check coverage mutants setup tests
 
 check:
 	R -e "library(styler)" \
