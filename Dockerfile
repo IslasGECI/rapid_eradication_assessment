@@ -1,4 +1,5 @@
 FROM islasgeci/base:0.7.0
+COPY . /workdir
 RUN apt-get update && \
     apt-get install --yes \
         gdal-bin \
