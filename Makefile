@@ -6,6 +6,12 @@ check:
 	  -e "any(resumen[[2]])" \
 	  | grep FALSE
 
+clean:
+	rm --force --recursive RapidEradicationAssessment.Rcheck
+	rm --force --recursive tests/testthat/_snaps
+	rm --force RapidEradicationAssessment_*.tar.gz
+	rm --force NAMESPACE
+
 coverage: tests
 
 mutants: tests
