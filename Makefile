@@ -12,4 +12,4 @@ mutants: tests
 	@echo "🙁🏹 No mutation testing on R 👾🎉👾"
 
 tests:
-	R -e "devtools::test()"
+	Rscript -e "devtools::test()"
