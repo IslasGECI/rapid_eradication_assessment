@@ -14,7 +14,8 @@ clean:
 	rm --force RapidEradicationAssessment_*.tar.gz
 	rm --force NAMESPACE
 
-coverage: tests
+coverage: setup
+	Rscript tests/testthat/coverage.R
 
 mutants: tests
 	@echo "🙁🏹 No mutation testing on R 👾🎉👾"
