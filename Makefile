@@ -11,5 +11,11 @@ coverage: tests
 mutants: tests
 	@echo "🙁🏹 No mutation testing on R 👾🎉👾"
 
+setup:
+	R -e "devtools::document()" && \
+	R CMD build . && \
+	R CMD check RapidEradicationAssessment_0.1.0.tar.gz && \
+	R CMD INSTALL RapidEradicationAssessment_0.1.0.tar.gz
+
 tests:
 	Rscript -e "devtools::test()"
