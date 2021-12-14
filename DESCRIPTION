@@ -15,7 +15,6 @@ Authors@R: c(
            ))
 Description: The rapid eradication assessment (REA) model is a powerful simulation framework to determine, given model parameters and a fixed level of monitoring effort, the level of confidence in declaring the success of pest eradication.
 Imports:
-    comprehenr,
     data.table,
     MASS,
     R6,
