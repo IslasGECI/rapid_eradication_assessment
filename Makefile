@@ -1,3 +1,5 @@
+.PHONY: tests
+
 check:
 	R -e "library(styler)" \
 	  -e "resumen <- style_dir('src')" \
