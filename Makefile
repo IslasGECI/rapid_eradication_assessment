@@ -1,4 +1,6 @@
-.PHONY: check coverage mutants setup tests
+init: setup tests
+
+.PHONY: check coverage init mutants setup tests
 
 check:
 	R -e "library(styler)" \
@@ -16,7 +18,7 @@ clean:
 
 coverage: setup
 	Rscript tests/testthat/coverage.R
-
+	
 mutants: tests
 	@echo "🙁🏹 No mutation testing on R 👾🎉👾"
 
