@@ -1,0 +1,7 @@
+Element,min,likely,max
+sigma,15,20,26
+priorRat,0.7,0.8,0.9
+probIntro,0.001,0.01,0.02
+rMaxRat,5,7,10
+ratDispersalSD,NA,125,NA
+incurDispersalSD,NA,625,NA
