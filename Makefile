@@ -22,6 +22,9 @@ coverage: setup
 mutants: tests
 	@echo "🙁🏹 No mutation testing on R 👾🎉👾"
 
+run:
+	Rscript src/pairwise_simulations.R
+
 setup:
 	R -e "devtools::document()" && \
 	R CMD build . && \
