@@ -1,6 +1,6 @@
 init: setup tests
 
-.PHONY: check coverage init mutants setup tests
+.PHONY: check coverage init mutants run setup tests
 
 check:
 	R -e "library(styler)" \
